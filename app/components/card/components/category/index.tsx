@@ -6,9 +6,9 @@ type CategoryProps = {
 
 const CardCategory = ({ children }: CategoryProps) => {
   return (
-    <span className="bg-primary px-3 py-1 rounded font-extrabold text-xs">
+    <h2 className="bg-primary px-3 py-1 rounded font-extrabold text-xs">
       {children}
-    </span>
+    </h2>
   )
 }
 export default CardCategory
