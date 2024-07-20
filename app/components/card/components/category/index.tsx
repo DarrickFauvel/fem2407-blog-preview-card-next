@@ -6,7 +6,7 @@ type CategoryProps = {
 
 const CardCategory = ({ children }: CategoryProps) => {
   return (
-    <h2 className="bg-primary px-3 py-1 rounded font-extrabold text-xs sm:text-sm">
+    <h2 className="bg-primary px-3 py-1 rounded font-extrabold text-xs sm:text-sm leading-normal">
       {children}
     </h2>
   )

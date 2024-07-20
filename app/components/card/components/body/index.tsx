@@ -6,7 +6,9 @@ type BodyProps = {
 
 const CardBody = ({ children }: BodyProps) => {
   return (
-    <p className="font-medium text-sm sm:text-base text-gray-500">{children}</p>
+    <p className="font-medium text-sm sm:text-base leading-normal text-gray-500">
+      {children}
+    </p>
   )
 }
 export default CardBody
