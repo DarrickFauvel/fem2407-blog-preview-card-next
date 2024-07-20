@@ -5,6 +5,8 @@ type DateProps = {
 }
 
 const CardDate = ({ children }: DateProps) => {
-  return <span className="font-medium text-xs">Published {children}</span>
+  return (
+    <span className="font-medium text-xs sm:text-sm">Published {children}</span>
+  )
 }
 export default CardDate
