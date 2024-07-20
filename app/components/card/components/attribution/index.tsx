@@ -11,7 +11,8 @@ const AttributionComponent = () => {
       . Coded by{" "}
       <a
         className="text-gray-700 underline"
-        href="https://www.frontendmentor.io/profile/DarrickFauvel">
+        href="https://www.frontendmentor.io/profile/DarrickFauvel"
+        target="_blank">
         Darrick Fauvel
       </a>
       .
