@@ -7,10 +7,10 @@ type CardAuthorProps = {
 
 const CardAuthor = ({ avatar, name }: CardAuthorProps) => {
   return (
-    <section className="author flex items-center gap-3">
+    <div className="author flex items-center gap-3">
       <Image src={avatar} width={32} height={32} alt="author avatar" />
       <span className="font-extrabold text-sm leading-normal">{name}</span>
-    </section>
+    </div>
   )
 }
 export default CardAuthor
