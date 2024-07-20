@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image"
 
-type AuthorProps = {
+type CardAuthorProps = {
   avatar: StaticImageData
   name: string
 }
 
-const AuthorComponent = ({ avatar, name }: AuthorProps) => {
+const CardAuthor = ({ avatar, name }: CardAuthorProps) => {
   return (
     <section className="author flex items-center gap-3">
       <Image src={avatar} width={32} height={32} alt="author avatar" />
@@ -13,4 +13,4 @@ const AuthorComponent = ({ avatar, name }: AuthorProps) => {
     </section>
   )
 }
-export default AuthorComponent
+export default CardAuthor

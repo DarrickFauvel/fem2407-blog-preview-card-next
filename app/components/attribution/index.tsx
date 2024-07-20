@@ -1,4 +1,4 @@
-const AttributionComponent = () => {
+const Attribution = () => {
   return (
     <div className="absolute bottom-1 text-[11px] text-gray-600 text-center mt-3">
       Challenge by{" "}
@@ -19,4 +19,4 @@ const AttributionComponent = () => {
     </div>
   )
 }
-export default AttributionComponent
+export default Attribution
