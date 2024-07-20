@@ -10,7 +10,7 @@ import AuthorComponent from "./components/author"
 
 export default function Card() {
   return (
-    <article className="group min-w-[327px] max-w-sm bg-white p-6 border-gray-950 border-[1px] rounded-[20px] flex flex-col gap-6 drop-shadow-[8px_8px_0_black] cursor-pointer relative transition-all duration-200 hover:translate-x-[8px] hover:translate-y-[8px] hover:drop-shadow-[transparent] active:ring-4 active:ring-gray-950 active:ring-offset-2 active:ring-offset-primary">
+    <article className="group min-w-[327px] max-w-sm bg-white p-6 mx-6 mt-8 border-gray-950 border-[1px] rounded-[20px] flex flex-col gap-6 drop-shadow-[8px_8px_0_black] cursor-pointer relative transition-all duration-200 hover:translate-x-[8px] hover:translate-y-[8px] hover:drop-shadow-[transparent] active:ring-4 active:ring-gray-950 active:ring-offset-2 active:ring-offset-primary">
       <CardImage image={illustration} />
 
       <section className="content flex flex-col items-start gap-3">
