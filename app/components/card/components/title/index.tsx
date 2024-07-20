@@ -5,6 +5,6 @@ type TitleProps = {
 }
 
 const CardTitle = ({ children }: TitleProps) => {
-  return <h1 className="font-extrabold text-xl sm:text-2xl">{children}</h1>
+  return <h3 className="font-extrabold text-xl sm:text-2xl">{children}</h3>
 }
 export default CardTitle
