@@ -13,7 +13,7 @@ function CardImage({ image }: ImageProps) {
         width={279}
         height={200}
         alt="modern illustration"
-        className="min-w-[279px] w-full min-h-[200px] h-full object-cover transition-all duration-200 group-hover:scale-125 group-hover:rotate-3"
+        className="w-full h-full object-cover transition-all duration-200 group-hover:scale-125 group-hover:rotate-3"
       />
     </div>
   )
